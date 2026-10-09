@@ -1,59 +1,59 @@
-import b1Asset from "@/assets/b1.jpg.asset.json";
-import b2Asset from "@/assets/b2.jpg.asset.json";
-import b3Asset from "@/assets/b3.jpg.asset.json";
-import b4Asset from "@/assets/b4.jpg.asset.json";
-import b5Asset from "@/assets/b5.jpg.asset.json";
-import b6Asset from "@/assets/b6.jpg.asset.json";
-import b7Asset from "@/assets/b7.jpg.asset.json";
-import c1Asset from "@/assets/c1.jpg.asset.json";
-import c2Asset from "@/assets/c2.jpg.asset.json";
-import c3Asset from "@/assets/c3.jpg.asset.json";
-import chocAsset from "@/assets/choc.jpg.asset.json";
-import d1Asset from "@/assets/d1.jpg.asset.json";
-import d2Asset from "@/assets/d2.jpg.asset.json";
-import d3Asset from "@/assets/d3.jpg.asset.json";
-import f1Asset from "@/assets/f1.jpg.asset.json";
-import f2Asset from "@/assets/f2.jpg.asset.json";
-import f3Asset from "@/assets/f3.jpg.asset.json";
-import f4Asset from "@/assets/f4.jpg.asset.json";
-import f5Asset from "@/assets/f5.jpg.asset.json";
-import f6Asset from "@/assets/f6.jpg.asset.json";
-import gotAsset from "@/assets/got.jpg.asset.json";
-import logoAsset from "@/assets/logo.png.asset.json";
-import moriaAsset from "@/assets/moria.jpg.asset.json";
-import pr1Asset from "@/assets/pr1.jpg.asset.json";
-import pr2Asset from "@/assets/pr2.jpg.asset.json";
-import sn1Asset from "@/assets/sn1.jpg.asset.json";
-import sn2Asset from "@/assets/sn2.jpg.asset.json";
+import b1Img from "@/assets/b1.jpg";
+import b2Img from "@/assets/b2.jpg";
+import b3Img from "@/assets/b3.jpg";
+import b4Img from "@/assets/b4.jpg";
+import b5Img from "@/assets/b5.jpg";
+import b6Img from "@/assets/b6.jpg";
+import b7Img from "@/assets/b7.jpg";
+import c1Img from "@/assets/c1.jpg";
+import c2Img from "@/assets/c2.jpg";
+import c3Img from "@/assets/c3.jpg";
+import chocImg from "@/assets/choc.jpg";
+import d1Img from "@/assets/d1.jpg";
+import d2Img from "@/assets/d2.jpg";
+import d3Img from "@/assets/d3.jpg";
+import f1Img from "@/assets/f1.jpg";
+import f2Img from "@/assets/f2.jpg";
+import f3Img from "@/assets/f3.jpg";
+import f4Img from "@/assets/f4.jpg";
+import f5Img from "@/assets/f5.jpg";
+import f6Img from "@/assets/f6.jpg";
+import gotImg from "@/assets/got.jpg";
+import logoImg from "@/assets/logo.png";
+import moriaImg from "@/assets/moria.jpg";
+import pr1Img from "@/assets/pr1.jpg";
+import pr2Img from "@/assets/pr2.jpg";
+import sn1Img from "@/assets/sn1.jpg";
+import sn2Img from "@/assets/sn2.jpg";
 
 export const images: Record<string, string> = {
-  b1: b1Asset.url,
-  b2: b2Asset.url,
-  b3: b3Asset.url,
-  b4: b4Asset.url,
-  b5: b5Asset.url,
-  b6: b6Asset.url,
-  b7: b7Asset.url,
-  c1: c1Asset.url,
-  c2: c2Asset.url,
-  c3: c3Asset.url,
-  choc: chocAsset.url,
-  d1: d1Asset.url,
-  d2: d2Asset.url,
-  d3: d3Asset.url,
-  f1: f1Asset.url,
-  f2: f2Asset.url,
-  f3: f3Asset.url,
-  f4: f4Asset.url,
-  f5: f5Asset.url,
-  f6: f6Asset.url,
-  got: gotAsset.url,
-  logo: logoAsset.url,
-  moria: moriaAsset.url,
-  pr1: pr1Asset.url,
-  pr2: pr2Asset.url,
-  sn1: sn1Asset.url,
-  sn2: sn2Asset.url
+  b1: b1Img,
+  b2: b2Img,
+  b3: b3Img,
+  b4: b4Img,
+  b5: b5Img,
+  b6: b6Img,
+  b7: b7Img,
+  c1: c1Img,
+  c2: c2Img,
+  c3: c3Img,
+  choc: chocImg,
+  d1: d1Img,
+  d2: d2Img,
+  d3: d3Img,
+  f1: f1Img,
+  f2: f2Img,
+  f3: f3Img,
+  f4: f4Img,
+  f5: f5Img,
+  f6: f6Img,
+  got: gotImg,
+  logo: logoImg,
+  moria: moriaImg,
+  pr1: pr1Img,
+  pr2: pr2Img,
+  sn1: sn1Img,
+  sn2: sn2Img
 };
 export type Product = { id: string; name: string; description: string; price: number; image: string; premiere: boolean };
 export type MenuSection = { title: string; label: string; products: Product[] };
